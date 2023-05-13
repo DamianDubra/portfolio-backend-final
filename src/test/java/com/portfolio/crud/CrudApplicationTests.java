@@ -1,9 +1,9 @@
-package com.tutorial.crud;
+package com.portfolio.crud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+@SpringBootTest(classes = CrudApplication.class)
 class CrudApplicationTests {
 
 	@Test
