@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/cartas")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://portfoliobackenddamian1.onrender.com")
 public class CartasController {
 
     @Autowired
